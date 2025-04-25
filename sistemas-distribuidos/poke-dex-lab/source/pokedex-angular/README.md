@@ -34,3 +34,66 @@ npm start
 - [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
 - [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
 - [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+
++-----------------------------+
+|       Usuario Final         |
+|                             |
+|  Acceso a través de HTTPS   |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|    Azure Static Web Apps    |
+|                             |
+| - Hosting estático          |
+| - Despliegue automático     |
+|   desde GitHub              |
+| - URL pública asignada      |
+|   (https://*.azurestaticapps.net) |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|        GitHub Repo          |
+|                             |
+| - Código fuente de PokeDex  |
+| - Rama principal (main)     |
+| - Configuración de build    |
+|   (ej: /dist o /build)      |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|     GitHub Actions          |
+|                             |
+| - Automatización del build  |
+| - Integración continua (CI) |
+| - Despliegue continuo (CD)  |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|    Azure Resource Group     |
+|                             |
+| - Grupo lógico de recursos  |
+| - Administración centralizada|
+|   de todos los servicios    |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|    Azure Active Directory   |
+|                             |
+| - Autenticación y autorización|
+| - Gestión de usuarios y roles|
+|   (Estudiantes con cuenta)  |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|    Azure Security Center    |
+|                             |
+| - Monitoreo de seguridad    |
+| - Protección contra amenazas|
+| - Configuración de CORS     |
++-----------------------------+
